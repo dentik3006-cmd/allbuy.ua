@@ -1,0 +1,7 @@
+body{margin:0;font-family:Arial;background:#f6f1ff}
+header{background:#7b4dff;color:white;padding:15px;text-align:center}
+a{color:white;margin:0 10px;text-decoration:none}
+.container{padding:20px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:white;border-radius:20px;padding:15px;box-shadow:0 10px 20px rgba(0,0,0,.1)}
+button{background:#7b4dff;color:white;border:none;padding:12px;width:100%;border-radius:16px;font-size:16px}

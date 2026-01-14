@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Магазин</h1>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="cart.html">Кошик</a>
+  </nav>
+</header>
+<div class="container">
+  <div class="products">
+    <div class="card"><h3>Футболка</h3><p>399 грн</p><button onclick="addToCart('Футболка',399)">Додати</button></div>
+    <div class="card"><h3>Навушники</h3><p>899 грн</p><button onclick="addToCart('Навушники',899)">Додати</button></div>
+    <div class="card"><h3>Повербанк</h3><p>1099 грн</p><button onclick="addToCart('Повербанк',1099)">Додати</button></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
